@@ -1,0 +1,7 @@
+{
+  "name": "Gestor de Inventarios",
+  "description": "Un gestor de inventarios moderno para organizar tus productos de forma eficiente.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
