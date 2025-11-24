@@ -48,9 +48,9 @@
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "recharts": "https://aistudiocdn.com/recharts@^3.5.0",
     "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
-    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
     "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.84.0",
-    "vite": "https://aistudiocdn.com/vite@^7.2.4"
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
   }
 }
 </script>
@@ -58,8 +58,8 @@
 </head>
   <body class="bg-slate-50 text-slate-900 antialiased">
     <div id="root"></div>
-    <!-- ESTA LÍNEA ES CRUCIAL PARA QUE FUNCIONE EN GITHUB/VITE -->
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- CORRECCIÓN: Ruta relativa con punto al inicio -->
+    <script type="module" src="./src/main.tsx"></script>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>
